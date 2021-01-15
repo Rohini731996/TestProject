@@ -8,8 +8,11 @@ export default class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        {/* <MusicApp /> */}
-        <ExampleComponent/>
+        <MusicApp />
+        
+        
+        {/* <ExampleComponent/> ---  uncomment this for HOC component example */}
+
       </Provider>
     );
   }
